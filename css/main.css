@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    background-image: url("../imgs/chicago-skyline-lakefront.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+
+  background-color: white;
+  display: flex;
+  width: 12%;
+}
+
+img {
+  display: flex;
+  height: 5%;
+  padding: 3px 0 2px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Navbar {
+  @__Link {
+    color: yellow;
+    display: flex;
+  }
+}
